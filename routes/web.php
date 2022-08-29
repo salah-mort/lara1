@@ -1,6 +1,6 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -14,13 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return 'Home page';
 });
 
-Route::get('/', function () {
-    return view('hello: ');
-});
 
-Route::get('/', function () {
-    return view('salah Mortaja');
+Route::get('about', function () {
+    return 'salah Mortaja';
 });
