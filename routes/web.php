@@ -1,6 +1,6 @@
 <?php
 
-
+use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,10 +14,13 @@
 */
 
 Route::get('/', function () {
-    return 'Home page';
+    return 'asaasdsfd';
 });
 
-
 Route::get('about', function () {
+    return 'hello:';
+});
+
+Route::get('xzas', function () {
     return 'salah Mortaja';
 });
