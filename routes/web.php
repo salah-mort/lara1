@@ -21,6 +21,4 @@ Route::get('about', function () {
     return 'hello:';
 });
 
-Route::get('xzas', function () {
-    return 'salah Mortaja';
-});
+
